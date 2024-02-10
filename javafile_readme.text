@@ -1,0 +1,18 @@
+The MedicationReminder class represents the core of our medication reminder system. It has a method called scheduleReminders() 
+which is responsible for setting up reminders. These reminders are scheduled to occur at regular intervals, such as every 8 hours.
+ This interval can be adjusted depending on when Sunita needs to take her medications.
+
+When the scheduled time for a reminder arrives, the remindToTakeMedication() method is triggered. 
+Currently, this method simply displays a reminder message on the console. 
+However, this functionality can be expanded to notify Sunita through other means such as email, text messages, or a dedicated 
+smartphone application. This allows Sunita to receive reminders in a way that is most convenient for her.
+
+To initiate the medication reminder system, we call the scheduleReminders() method within the main method. 
+This starts the process of scheduling reminders based on the specified intervals.
+
+This basic prototype serves as a foundation for a medication reminder system tailored specifically to Sunita Sharma's needs. 
+Additional features can be incorporated to make the system more user-friendly and customizable. For instance, we can add a user 
+interface where Sunita can input her medication schedule and preferences. This would allow her to configure the system according 
+to her specific requirements.
+Additionally, different notification options can be provided to accommodate Sunita's preferences and lifestyle. 
+This ensures that she receives reminders in a timely manner, helping her to manage her medications effectively and live a healthier life.
